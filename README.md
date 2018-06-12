@@ -1,5 +1,4 @@
-# Master-Thesis
-Detecting Object &amp; its State SImultaneously
+# Master-Thesis (Detecting Object &amp; its State SImultaneously)
 
 ## Abstract
 This thesis jointly addresses the task of detecting the object and its state. The state
