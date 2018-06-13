@@ -17,6 +17,13 @@ To download Faster R-CNN models trained on VOC 2007, run:
 ./data/scripts/fetch_faster_rcnn_models.sh
 ```
 
+## Dataset
+
+The dataset we used is a subset of MS-COCO detection dataset where the extracted object categories are annotated with tis state information.
+We have 5 object categories (Umbrella, Scissor, Toilet, Laptop, Suitcase) in our dataset and each object has 2 states (open and closed).
+Since the geometric features of open and closed state varies significantly across the categories, therefore in all our experiments we have
+considered the state of one category to be diffrent from that of other category.
+
 This script will populate `data/faster_rcnn_models`.
 
 The sample Dataset is described in `data/stateDetection/` folder which consists of:
